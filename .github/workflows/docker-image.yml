@@ -18,3 +18,5 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: List docker images
       run: docker image ls
+    - name: Run docker container
+      run: docker run -d my-image-name:latest
