@@ -19,4 +19,4 @@ jobs:
     - name: List docker images
       run: docker image ls
     - name: Run docker container
-      run: docker run -d my-image-name:latest
+      run: docker run -t my-image-name:latest
