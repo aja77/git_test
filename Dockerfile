@@ -1,2 +1,2 @@
 FROM alpine
-CMD ["echo", "Testing Docker build Action!"]
+CMD ["echo", "Testing more features of the Docker build and run GitHub Action!"]
